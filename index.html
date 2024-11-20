@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+body {
+  background-color: lightblue;
+}
+</style>
+</head>
+
+<body>
+
+  <script src="main.js"></script>
+
+  <header>
+
+   
+    <div class="navBar">
+
+      <div class="logoSection">
+        <div>
+          <img src="img4.jpg" class="flipkart-logo" alt="flipkart-logo" />
+        </div>
+
+        <div>
+          <p class="logo-text">Explore <span id="plus">Plus+</span></p>
+        </div>
+      </div>
+
+      <div class="searchBox">
+        <input class="input" type="text" placeholder="Search for products, brands and more" />
+
+        <div class="search-logo">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="loginBox">
+        <div class="login">Login</div>
+      </div>
+
+      <div class="becomeSellerBox">
+        <p>Become a Seller</p>
+      </div>
+
+      <div class="moreBox">
+        <p>More</p>
+      </div>
+
+      <div class="cartBox">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+  </header>
+
+
+  <div class="navbar">
+    <a href="#GROCERY">GROCERY</a>
+    <a href="#ELECTRONICS">ELECTRONICS</a>
+    <div class="dropdown">
+      <button class="dropbtn">MOBILES
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">1+</a>
+        <a href="#">SAMSUNG</a>
+        <a href="#">IPHONE</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">FASHION
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">MENS TOP WEAR</a>
+        <a href="#">WOMEN TOP WEAR</a>
+        
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="slideshow-container">
+
+ 
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<hr>
+
+
+<div class="card">
+  <img src="sony1.jpg" alt="Speaker" style="width: 10px%">
+  <h1>SONY Speaker</h1>
+  <p class="price">₹799*</p>
+  <p>Best Selling Mobile Speaker</p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+<div class="card">
+  <img src="13.jpg" alt="iphone 13" style="width: 10px%">
+  <h1>iphone 13</h1>
+  <p class="price">₹79999*</p>
+  <p>Best Selling Mobile </p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+
+<div class="card">
+  <img src="cloth.jpg" alt="Cloth" style="width: 10px%">
+  <h1>Jeans</h1>
+  <p class="price">₹900*</p>
+  <p>Best Selling Jeans </p>
+  <p><button>Add to Cart</button></p>
+</div>
+
+
+
+</body>
+</html>
